@@ -1,0 +1,184 @@
+// Main
+main {
+  background-image:url(../image/banner/banner10.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+} // End Main
+// #particles-js{
+//   width: 100% !important;
+//   height: 100% !important;
+//   background-position: 50% 50%;
+//   z-index: 0 !important;
+//   top: 0; right: 0; bottom: 0; left: 0;
+// }
+// ============= SERVICE ==========
+.service {
+
+
+  &_heading {
+
+  }
+  &_container {
+
+    &_box {
+      background-color: white;
+      border-radius: 3px;
+      transform: translateZ(20px);
+      padding: 2rem;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.19);
+    }
+
+    &_img {
+      // width: 100%;
+    }
+  }
+}
+
+// ============= TOOL ==========
+.tool {
+
+  &_box {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 1rem;
+    transform-style: preserve-3d;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.19);
+
+    &--img {
+      width: 7rem;
+      height: 7rem;
+      display: block;
+      margin: 0 auto;
+      transform: translateZ(20px);
+    }
+  }
+}
+
+// ============= WHYUS ==========
+.whyus {
+
+  &_box {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.19);
+
+    &_1 {
+      // background-color: lightgreen;
+    }
+
+    &_2 {
+      background-color: #FFF;
+      padding: 1rem;
+      margin: 1rem;
+    }
+
+    &_22 {
+      text-align: right;
+      background-color: #FFF;
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    &_img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+// ============= Hire ==========
+.hire {
+
+  &_form {
+    background-color: #FFF;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.19);
+  }
+
+  &_content {
+    background-color: #FFF;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.19);
+
+    &_img {
+      width: 5rem;
+    }
+  }
+
+  &_map {
+    // background-color: yellow;
+  }
+}
+
+// ============= FOOTER ==========
+.footer {
+  padding: 5rem 0;
+
+  &_one {
+    // background-color: red;
+
+    &__1 {
+      width: 3.5rem;
+      transform-style: preserve-3d;
+    }
+  }
+
+  &_two {
+    padding: 2rem;
+
+    &__box {
+    }
+
+    &__innerbox {
+      display: flex;
+      padding: 0 0 1rem 0;
+      &--img {
+        width: 3.5rem;
+        height: 3.5rem;
+      }
+      &--txt {
+        font-size: 1.5rem;
+        color: #FFF;
+        margin: .5rem 1.5rem 0 1rem;
+      }
+    }
+  }
+
+  &_three {
+    padding: 2rem;
+
+    &__box {
+
+    }
+
+    &__innerbox {
+      display: flex;
+      padding: 0 0 1rem 0;
+      &--img {
+        width: 2rem;
+        height: 2rem;
+      }
+      &--txt {
+        font-size: 1.5rem;
+        color: #FFF;
+        margin: .5rem 1.5rem 0 1rem;
+      }
+    }
+  }
+
+  &_bottom {
+    &__txt {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      color: #FFF;
+
+    }
+  }
+}

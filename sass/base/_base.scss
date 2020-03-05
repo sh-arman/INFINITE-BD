@@ -1,0 +1,68 @@
+*,
+*:after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 72.5%; /* 10 px */
+  // font-size: 62.5%; /* 10 px */
+  // font-size: 52.5%;  10 px
+}
+
+body {
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.7;
+  font-family: sans-serif;
+}
+
+.section-header {
+  // padding: 4rem 0;
+}
+
+.section-service {
+  padding: 4rem 0;
+}
+
+.section-tools {
+  padding: 4rem 0;
+}
+
+.section-whyus {
+  padding: 4rem 0;
+  // background-color: yellow;
+}
+
+.section-hire {
+  padding: 4rem 0;
+  // background-color: yellow;
+}
+
+.section-footer {
+  padding: 4rem 0;
+  background-color: #011f46;
+  background-image:linear-gradient(to right bottom,
+                    rgba(#011f46,0.8),
+                    rgba(#011f46,0.4)),
+                    url(../image/banner/footer.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  padding: 2rem 0;
+}
+
+// media query manager
+/*
+
+0    - 600
+600  - 900
+900  - 1200
+1200 - 1400 normal
+1400 - 1800
+1800 +
+
+*/

@@ -1,0 +1,21 @@
+{
+  "name": "infinte",
+  "version": "1.0.0",
+  "description": "infinte web design and development it service provider",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Arman",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "wow.js": "^1.2.2"
+  },
+  "keywords": [
+    "null"
+  ],
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  }
+}
