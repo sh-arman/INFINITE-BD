@@ -1,0 +1,52 @@
+.about {
+  &_bg {
+    background-image:linear-gradient(to right bottom,
+                      rgba(126,213,111,0.8),
+                      rgba(40,180,131,0.8)),
+                      url(../image/banner/banner1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding: 10rem 0;
+
+    &--img {
+      margin-left: 30%;
+    }
+
+    &--image {
+      width: 50%;
+    }
+  }
+
+  &_body {
+    padding: 3rem;
+
+    &__about {
+      margin-top: 3rem;
+
+      // background-color: red;
+
+      &--txt {
+        font-size: 1.5rem;
+        color: gray;
+      }
+    }
+
+    &__links {
+      margin-top: 3rem;
+      border: 1px solid lightgray;
+
+      &--imgbox {
+        width: 25rem !important;
+        height: 25rem !important;
+        margin:  0 !important;
+      }
+
+      &--image {
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+  }
+}
