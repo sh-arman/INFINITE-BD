@@ -37,16 +37,26 @@
       font-size: 6.5rem;
       font-weight: bold;
       letter-spacing: .5rem;
+
+      @media screen and (min-width: 300px) and (max-width: 500px)  {
+        font-size: 5.5rem;
+      }
     }
     &--2 {
       font-size: 3.8rem;
       font-weight: bold;
       word-spacing: 1.2rem;
       line-height: .7rem;
+
+      @media screen and (min-width: 300px) and (max-width: 500px)  {
+        font-size: 3rem;
+      }
     }
     &--3 {
       font-size: 2.2rem;
-
+      @media screen and (min-width: 300px) and (max-width: 500px)  {
+        font-size: 2rem;
+      }
     }
   }
 }

@@ -45,7 +45,6 @@
   box-sizing: border-box; }
 
 html {
-  scroll-behavior: smooth;
   font-size: 72.5%;
   /* 10 px */ }
 
@@ -54,25 +53,6 @@ body {
   font-weight: 400;
   line-height: 1.7;
   font-family: sans-serif; }
-
-.up {
-  background-color: #FFF;
-  border-radius: 3px;
-  border: .1rem solid lightgray;
-  padding: .5rem 1rem;
-  display: inline-block;
-  transition: all .2s;
-  position: fixed;
-  right: 2%;
-  bottom: 2%;
-  z-index: 9999; }
-  .up:hover {
-    background-color: rgba(126, 213, 111, 0.8);
-    box-shadow: 0 .2rem .7rem gray;
-    border: .1rem solid transparent;
-    transform: translateY(-0.3rem); }
-  .up_img {
-    width: 2rem; }
 
 .section-service {
   padding: 4rem 0; }
@@ -310,25 +290,16 @@ body {
       font-size: 6.5rem;
       font-weight: bold;
       letter-spacing: .5rem; }
-      @media screen and (min-width: 300px) and (max-width: 500px) {
-        .header_txt--1 {
-          font-size: 5.5rem; } }
     .header_txt--2 {
       font-size: 3.8rem;
       font-weight: bold;
       word-spacing: 1.2rem;
       line-height: .7rem; }
-      @media screen and (min-width: 300px) and (max-width: 500px) {
-        .header_txt--2 {
-          font-size: 3rem; } }
     .header_txt--3 {
       font-size: 2.2rem; }
-      @media screen and (min-width: 300px) and (max-width: 500px) {
-        .header_txt--3 {
-          font-size: 2rem; } }
 
 .navbar-brand-logo {
-  width: 12rem; }
+  width: 5rem; }
 
 .nav-link {
   border-bottom: 1px solid transparent;
@@ -349,37 +320,6 @@ body {
     border-bottom: 1px solid #1DBF73;
     color: #1DBF73 !important;
     background-color: white !important; }
-
-.about_bg {
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8)), url(../image/banner/banner1.gif);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 10rem 0; }
-  .about_bg--img {
-    margin-left: 40%; }
-  .about_bg--image {
-    width: 35%; }
-
-.about_body {
-  padding: 3rem; }
-  .about_body__about {
-    margin-top: 3rem;
-    padding: 0 3rem 0 0; }
-    .about_body__about--txt {
-      font-size: 1.5rem;
-      color: gray; }
-  .about_body__links {
-    margin-top: 3rem;
-    border: 1px solid lightgray; }
-    .about_body__links--imgbox {
-      width: 25rem !important;
-      height: 25rem !important;
-      margin: 0 !important; }
-    .about_body__links--image {
-      width: 100% !important;
-      height: 100% !important; }
 
 main {
   background-image: url(../image/banner/banner10.png);
@@ -475,17 +415,3 @@ main {
     margin-top: 2rem;
     font-size: 1.5rem;
     color: #FFF; }
-
-.terms {
-  padding: 4rem; }
-  .terms_heading {
-    font-size: 1.7rem;
-    text-decoration: none !important;
-    text-transform: capitalize;
-    color: #1DBF73;
-    cursor: pointer; }
-    .terms_heading:hover {
-      text-decoration: none !important; }
-  .terms_para {
-    font-size: 1.4rem;
-    color: gray; }

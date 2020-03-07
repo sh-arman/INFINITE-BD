@@ -10,13 +10,9 @@
     background-attachment: fixed;
     padding: 10rem 0;
 
-    &--img {
-      margin-left: 30%;
-    }
+    &--img { margin-left: 40%; }
 
-    &--image {
-      width: 50%;
-    }
+    &--image { width: 35%; }
   }
 
   &_body {
@@ -24,6 +20,7 @@
 
     &__about {
       margin-top: 3rem;
+      padding: 0 3rem 0 0;
 
       // background-color: red;
 
